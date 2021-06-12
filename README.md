@@ -1,34 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2 align="center"> Tweeter </h2>
 
-## Getting Started
+Twitter clone using HarperDB , Next JS and Material UI. 
 
-First, run the development server:
+### Initial Features
 
-```bash
-npm run dev
-# or
-yarn dev
+- [ ] User story: I can see my profile or others' profile
+
+- [ ] User story: When I am on a profile, I can see Tweets and Retweets. I can also filter by Tweets, Tweets and replies, Media and Likes
+
+- [ ] User story: When I am on a profile, I can see followers and following
+
+- [ ] User story: When I am on a profile, I can see follow or unfollow the user
+
+- [ ] User story: I can navigate between Home, Explore and Bookmarks
+
+- [ ] User story: I can navigate to My Profile, Group Chat (optional), Setting/Authentication App.
+
+- [ ] User story: When I am on Home, I can post a new Tweet
+
+- [ ] User story: When I post a new Tweet, I can choose to upload an image and set the Tweet to be public or only-follower
+
+- [ ] User story: When I am on Home, I can see Tweets of people who I follow
+
+- [ ] User story: I can Comment, Retweet, Like or Save a Tweet
+
+- [ ] User story: I can Comment with image and I can like a comment
+
+- [ ] User story: I can see the posted time of the Comments and Tweets
+
+- [ ] User story: When I am on Home, I can see the most popular hashtags and people I should follow (it's up to you how to implement this)
+
+- [ ] User story: When I am on Explore, I can see the Top, Latest Tweet, or Tweet with Media. I can also choose to see the most popular people
+
+- [ ] User story: When I am on Bookmarks, I can see the Saved Tweet
+
+
+### Challenge Details
+
+[Dev challenges - Full Stack ](https://devchallenges.io/challenges/rleoQc34THclWx1cFFKH)
+
+[Harper DB Hashnode Hackathon](https://townhall.hashnode.com/announcing-harperdb-hackathon-on-hashnode)
+
+
+### Design Link: 
+
+https://www.figma.com/file/xxf4TG14lpF3vFUbBtEZUR/Tweeter?node-id=1%3A1520
+
+
+### Local Environment set up:
+
+```shell 
+# clone the repo 
+git clone  https://github.com/skarthikeyan96/tweeter.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```shell
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# install in local
+yarn 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+or 
 
-## Learn More
+npm install 
+```
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```shell
 
-## Deploy on Vercel
+# start the env
+yarn dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+or 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+npm run dev
+
+```
