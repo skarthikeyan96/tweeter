@@ -2,6 +2,13 @@
 
 Twitter clone using HarperDB , Next JS and Material UI. 
 
+### Stack
+
+1. Next.js 
+2. HarperDB
+3. Material UI 
+4. Cypress
+ 
 ### Initial Features
 
 - [ ] User story: I can see my profile or others' profile
